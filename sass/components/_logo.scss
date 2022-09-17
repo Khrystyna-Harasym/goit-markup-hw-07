@@ -1,0 +1,16 @@
+.top-line__logo {
+  font-family: var(--secondary-font);
+  @include font (26px, 700, 31px);
+  color: var(--dark-logo-color);
+  margin-right: 93px;
+}
+
+.footer-page__logo {
+  font-family: var(--secondary-font);
+  @include font (26px, 700, 31px);
+  color: var(--light-logo-color);
+  margin-bottom: 20px;
+}
+.accent {
+  color: var(--accent-color);
+}

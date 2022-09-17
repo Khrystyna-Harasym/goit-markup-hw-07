@@ -15,40 +15,45 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Верхня лінія-->
     <header class="top-line">
-      <div class="container top-line-container">
+      <div class="container top-line__container">
         <!--Логотип-->
-        <a class="page-logo link" href="./index.html"
+        <a class="top-line__logo link" href="./index.html"
           ><span class="accent">Web</span>studio</a
         >
         <!--Навігація-->
         <nav class="page-nav">
           <ul class="menu list">
-            <li class="nav-item">
-              <a class="menu-link link" href="./index.html">Студія</a>
+            <li class="menu__item">
+              <a class="menu__link link" href="./index.html">Студія</a>
             </li>
-            <li class="nav-item">
-              <a class="menu-link link current" href="./portfolio.html"
+            <li class="menu__item">
+              <a
+                class="menu__link link menu__link_current"
+                href="./portfolio.html"
                 >Портфоліо</a
               >
             </li>
-            <li class="nav-item">
-              <a class="menu-link link" href="#">Контакти</a>
+            <li class="menu__item">
+              <a class="menu__link link" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
         <!--Контакти-->
         <ul class="contact-menu list">
-          <li class="nav-item contact-list">
-            <a class="mail link-icon link" href="mailto:info@devstudio.com"
+          <li class="contact-menu__item contact-list">
+            <a
+              class="mail contact-menu__link_icon link"
+              href="mailto:info@devstudio.com"
               ><svg
                 lang="en"
                 aria-label="mail icon"
-                class="contact-icon"
+                class="contact-menu__contact-icon"
                 width="16"
                 height="12"
               >
@@ -57,12 +62,14 @@
               info@devstudio.com</a
             >
           </li>
-          <li class="nav-item contact-list">
-            <a class="contact-number link-icon link" href="tel:+380961111111"
+          <li class="contact-menu__item contact-list">
+            <a
+              class="contact-number contact-menu__link_icon link"
+              href="tel:+380961111111"
               ><svg
                 lang="en"
                 aria-label="smartphone icon"
-                class="contact-icon"
+                class="contact-menu__contact-icon"
                 width="10"
                 height="16"
               >
@@ -99,10 +106,10 @@
           </ul>
           <!--Проєкти-->
           <h2 class="visually-hidden">Проєкти</h2>
-          <ul class="list project-list-container">
-            <li class="project-list">
-              <a href="#" class="project-item-link link">
-                <div class="project-img-wrapper">
+          <ul class="list project">
+            <li class="project__list">
+              <a href="#" class="project__list_item-link link">
+                <div class="project_img-wrapper">
                   <img
                     src="./images/projects/techokriak.jpg"
                     alt="ноутбук"
@@ -116,15 +123,15 @@
                   </p>
                 </div>
 
-                <div class="project-card">
-                  <h3 class="project-title">Технокряк</h3>
-                  <p class="project-desc">Веб-сайт</p>
+                <div class="project__card">
+                  <h3 class="project__title">Технокряк</h3>
+                  <p class="project__desc">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="project-list">
-              <a href="#" class="project-item-link link">
-                <div class="project-img-wrapper">
+            <li class=".project__list">
+              <a href="#" class="project__list_item-link link">
+                <div class="project_img-wrapper">
                   <img
                     src="./images/projects/poster.jpg"
                     alt="два баскетболіста з м'ячем"
@@ -138,17 +145,17 @@
                   </p>
                 </div>
 
-                <div class="project-card">
-                  <h3 class="project-title">
+                <div class="project__card">
+                  <h3 class="project__title">
                     Постер New Orlean vs Golden Star
                   </h3>
-                  <p class="project-desc">Дизайн</p>
+                  <p class="project__desc">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="project-list">
-              <a href="#" class="project-item-link link">
-                <div class="project-img-wrapper">
+            <li class=".project__list">
+              <a href="#" class="project__list_item-link link">
+                <div class="project_img-wrapper">
                   <img
                     src="./images/projects/seafood.jpg"
                     alt="логотип риба з надписом"
@@ -162,15 +169,15 @@
                   </p>
                 </div>
 
-                <div class="project-card">
-                  <h3 class="project-title">Ресторан Seafood</h3>
-                  <p class="project-desc">Додаток</p>
+                <div class="project__card">
+                  <h3 class="project__title">Ресторан Seafood</h3>
+                  <p class="project__desc">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="project-list">
-              <a href="#" class="project-item-link link">
-                <div class="project-img-wrapper">
+            <li class=".project__list">
+              <a href="#" class="project__list_item-link link">
+                <div class="project_img-wrapper">
                   <img
                     src="./images/projects/headphones.jpg"
                     alt="наушники"
@@ -184,15 +191,15 @@
                   </p>
                 </div>
 
-                <div class="project-card">
-                  <h3 class="project-title">Проєкт Prime</h3>
-                  <p class="project-desc">Маркетинг</p>
+                <div class="project__card">
+                  <h3 class="project__title">Проєкт Prime</h3>
+                  <p class="project__desc">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="project-list">
-              <a href="#" class="project-item-link link">
-                <div class="project-img-wrapper">
+            <li class=".project__list">
+              <a href="#" class="project__list_item-link link">
+                <div class="project_img-wrapper">
                   <img
                     src="./images/projects/boxes.jpg"
                     alt="дві коробки"
@@ -206,15 +213,15 @@
                   </p>
                 </div>
 
-                <div class="project-card">
-                  <h3 class="project-title">Проєкт Boxes</h3>
-                  <p class="project-desc">Додаток</p>
+                <div class="project__card">
+                  <h3 class="project__title">Проєкт Boxes</h3>
+                  <p class="project__desc">Додаток</p>
                 </div></a
               >
             </li>
-            <li class="project-list">
-              <a href="#" class="project-item-link link">
-                <div class="project-img-wrapper">
+            <li class=".project__list">
+              <a href="#" class="project__list_item-link link">
+                <div class="project_img-wrapper">
                   <img
                     src="./images/projects/monitor.jpg"
                     alt="монітор"
@@ -228,15 +235,15 @@
                   </p>
                 </div>
 
-                <div class="project-card">
-                  <h3 class="project-title">Inspiration has no Borders</h3>
-                  <p class="project-desc">Веб-сайт</p>
+                <div class="project__card">
+                  <h3 class="project__title">Inspiration has no Borders</h3>
+                  <p class="project__desc">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="project-list">
-              <a href="#" class="project-item-link link">
-                <div class="project-img-wrapper">
+            <li class=".project__list">
+              <a href="#" class="project__list_item-link link">
+                <div class="project_img-wrapper">
                   <img
                     src="./images/projects/book.jpg"
                     alt=" журнал"
@@ -250,15 +257,15 @@
                   </p>
                 </div>
 
-                <div class="project-card">
-                  <h3 class="project-title">Видання Limited Edition</h3>
-                  <p class="project-desc">Дизайн</p>
+                <div class="project__card">
+                  <h3 class="project__title">Видання Limited Edition</h3>
+                  <p class="project__desc">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="project-list">
-              <a href="#" class="project-item-link link">
-                <div class="project-img-wrapper">
+            <li class=".project__list">
+              <a href="#" class="project__list_item-link link">
+                <div class="project_img-wrapper">
                   <img
                     src="./images/projects/label.jpg"
                     alt="бірка"
@@ -272,15 +279,15 @@
                   </p>
                 </div>
 
-                <div class="project-card link">
-                  <h3 class="project-title">Проєкт LAB</h3>
-                  <p class="project-desc">Маркетинг</p>
+                <div class="project__card link">
+                  <h3 class="project__title">Проєкт LAB</h3>
+                  <p class="project__desc">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="project-list">
-              <a href="#" class="project-item-link link">
-                <div class="project-img-wrapper">
+            <li class=".project__list">
+              <a href="#" class="project__list_item-link link">
+                <div class="project_img-wrapper">
                   <img
                     src="./images/projects/laptop.jpg"
                     alt="друкування на ноутбуці"
@@ -294,9 +301,9 @@
                   </p>
                 </div>
 
-                <div class="project-card">
-                  <h3 class="project-title">Growing Business</h3>
-                  <p class="project-desc">Додаток</p>
+                <div class="project__card">
+                  <h3 class="project__title">Growing Business</h3>
+                  <p class="project__desc">Додаток</p>
                 </div>
               </a>
             </li>
@@ -306,11 +313,11 @@
     </main>
     <!--Підвал-->
     <footer class="footer-page">
-      <div class="container footer-page-container">
+      <div class="container footer-page__container">
         <!--Перший блок-->
         <div class="footer-address-container">
           <!--Логотип-->
-          <a class="logo-footer link" href="./index.html"
+          <a class="logo footer-page__logo link" href="./index.html"
             ><span class="accent">Web</span>studio</a
           >
           <!--Адреса і контакти-->
@@ -340,7 +347,7 @@
         </div>
         <!--Другий блок-->
         <div class="footer-social-container">
-          <p class="title-footer subtitle">Приєднуйтесь</p>
+          <p class="footer-subtitle subtitle">Приєднуйтесь</p>
           <ul class="list footer-social-list">
             <li>
               <a href="#" class="link footer-social-link"
@@ -398,23 +405,22 @@
         </div>
         <!--Третій блок-->
         <div class="footer-signup-container">
-          <p class="title-footer subtitle">Підпишіться на розсилку</p>
-          
-            <form class="footer-modal-form">
-              <input
-                class="mail-input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-                required
-              />
-              <button type="submit" class="footer-signup-btn">
-                <span btn-signup-title>Підписатися</span>
-                <svg class="icon-close" width="24" height="24">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
-          
+          <p class="footer-subtitle subtitle">Підпишіться на розсилку</p>
+
+          <form class="footer-modal-form">
+            <input
+              class="mail-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+            <button type="submit" class="footer-signup-btn">
+              <span btn-signup-title>Підписатися</span>
+              <svg class="icon-close" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
